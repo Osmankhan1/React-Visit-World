@@ -1,0 +1,54 @@
+.country{
+    border: 3px solid blueviolet;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+h3{
+    color: brown;
+}
+h4{
+    color: green;
+}
+.flagimage{
+    height: 200px;
+    width: 375px;
+}
+.button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(13, 100, 53);
+    margin-top: 10px;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(33, 180, 102);
+}
+.button2{
+    padding: 10px;
+    color: white;
+    background-color: rgb(226, 14, 14);
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+}
+.button2:hover{
+    background-color: rgb(251, 70, 70);
+}
+.button3{
+    padding: 10px;
+    color: white;
+    background-color: #2804f7;
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+}
+.button3:hover{
+    background-color: #5438f5;
+}
+.visited{
+    background-color: antiquewhite;
+}
+.non-visited{
+    background-color: rgb(198, 250, 233);
+}

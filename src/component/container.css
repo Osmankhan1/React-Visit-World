@@ -1,0 +1,30 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+}
+li{
+    list-style: none;
+    color: rgb(249, 8, 153);
+    
+}
+.flags img{
+    width: 50px;
+    height: 35px;
+    margin-right: 6px;
+}
+@media only screen and (max-width: 600px) {
+    .country-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+  }
+  @media only screen and (min-device-width: 668px) and (max-device-width: 1024px) {
+    .country-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
